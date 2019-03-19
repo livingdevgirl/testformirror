@@ -28,6 +28,13 @@ app.get('/events', function(req, res){
 
 app.get('/menu', function(req, res){
 
+  //add in look for menu and menu name only display
+  // for(var i = 0; i < datafile.menuItems.length; i++){
+  //   if(dataFile.menuItems[i].menuName === ("Breakfast")){
+  //     document.getElementsByClassname('header')
+  //   }
+  // }
+
   res.render('menu', dataFile)
 });
 
