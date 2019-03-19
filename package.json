@@ -1,0 +1,28 @@
+{
+  "name": "bullandbear",
+  "version": "1.0.0",
+  "description": "bull and bear restaurant raleigh nc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bull",
+    "and",
+    "bear",
+    "restaruant",
+    "grill",
+    "bar",
+    "raleigh",
+    "nc"
+  ],
+  "author": "emmadean",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "moment": "^2.24.0"
+  }
+}
